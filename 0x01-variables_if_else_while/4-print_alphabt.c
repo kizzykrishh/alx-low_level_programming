@@ -1,7 +1,9 @@
 #include <stdio.h>
+
 /**
- * Main - main function
- * Return: print if 0
+ * main - Main function
+ * followed by a new line, except q and e
+ * Return: print 0 if true
  */
 int main(void)
 {
@@ -9,9 +11,9 @@ int main(void)
 
 	for (i = 'a' ; i <= 'z' ; i++)
 		if (i != 'q' && i != 'e')
-		       putchar(i);
+			putchar(i);
+
 	putchar('\n');
+
 	return (0);
-
 }
-
